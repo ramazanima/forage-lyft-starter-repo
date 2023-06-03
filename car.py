@@ -7,4 +7,4 @@ class Car(ABC):
 
     @abstractmethod
     def needs_service(self):
-        pass
+        return self.last_service_date
